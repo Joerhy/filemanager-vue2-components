@@ -23,5 +23,12 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
+#detail {
+  height: 100%;
+  padding: 15px;
+}
 
+#detail img {
+  height: 100%;
+}
 </style>

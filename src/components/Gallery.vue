@@ -132,4 +132,60 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
 
+.thumbnail {
+  display: inline-block;
+  max-width: 200px;
+  margin: 10px;
+}
+
+.img_gallery {
+  overflow: auto;
+  height: calc(100% - 40px);
+  border-radius: 4px;
+  margin-bottom: 40px;
+  clear: both;
+}
+
+.gallery_controls {
+  postion: absolute;
+  top: 0;
+  width: 100%;
+  height: 40px;
+  padding: 5px;
+  background: #ddd;
+}
+
+.gallery_controls button {
+  margin-right: 5px;
+}
+
+.gallery_controls input[type=range] {
+  width: auto;
+  display: inline-block;
+}
+
+#img_sizer {
+  display: inline-block;
+  float: right;
+  padding: 5px;
+}
+
+.selected {
+  border: 2px solid #9ecaed;
+  box-shadow: 0 0 10px #9ecaed;
+}
+
+.hasChanged {
+  background-color: Tomato
+}
+
+.thumbnail .caption {
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.thumb {
+  pointer-events: none;
+}
+
 </style>

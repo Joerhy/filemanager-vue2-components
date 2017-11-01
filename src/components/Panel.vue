@@ -88,7 +88,6 @@
 </template>
 
 <script>
-
 import Lablr from 'page-label-generator'
 
 export default {

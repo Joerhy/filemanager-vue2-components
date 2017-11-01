@@ -31,7 +31,7 @@ export {
 const plugin = {
   /* eslint-disable no-undef */
   version: VERSION,
-  install,
+  install
 }
 
 export default plugin

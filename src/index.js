@@ -2,7 +2,7 @@ import Controls from './components/Controls.vue'
 import Detail from './components/Detail.vue'
 import Gallery from './components/Gallery.vue'
 import Panel from './components/Panel.vue'
-import Store from './store'
+import store from './store'
 
 // Install the components
 export function install (Vue) {
@@ -10,7 +10,7 @@ export function install (Vue) {
   Vue.component('detail', Detail)
   Vue.component('gallery', Gallery)
   Vue.component('panel', Panel)
-  Vue.component('store', Store)
+  Vue.component('store', store)
   /* -- Add more components here -- */
 }
 
@@ -20,7 +20,7 @@ export {
   Detail,
   Gallery,
   Panel,
-  Store
+  store
   /* -- Add more components here -- */
 }
 

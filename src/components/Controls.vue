@@ -33,8 +33,12 @@ export default {
   },
   methods: {
     save: function () {
-      alert('Changes saved!')
-      this.$store.dispatch('saveState')
+      let body = {
+        startpage: this.$store.state.startPage,
+        thumbnail: this.$store.state.thumbnail,
+        images: this.$store.state.images
+      }
+      this.$store.dispatch('saveState', body)
     }
   }
 }
